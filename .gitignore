@@ -1,0 +1,21 @@
+# Ignore build dan backup DLL
+build/
+libprotobuf dll/
+__pycache__/
+
+# Ignore executable and binary system
+*.exe
+*.dll
+*.o
+*.obj
+
+# Ignore system/editor config file
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+CMakeCache.txt
+CMakeFiles/
+
+# Don't ignore ONNX model
+!unet_plusplus_rbc.onnx
