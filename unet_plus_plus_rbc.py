@@ -4,7 +4,7 @@ import tensorflow as tf
 import tf2onnx
 from tensorflow.keras import layers, models, backend as K
 from tensorflow.keras.optimizers import Adam
-import subprocess # Digunakan untuk handling error yang lebih baik
+import subprocess 
 import shutil
 
 # 1. Config and preprocess
