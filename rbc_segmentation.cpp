@@ -1,6 +1,6 @@
 /*
  * RBC Segmentation Inference
- * FIX: Using Manual NHWC Input to match TensorFlow Keras Model
+ * Using Manual NHWC Input to match TensorFlow Keras Model
  * Work command: py unet_plus_plus.py -> mkdir build -> cd build -> cmake -G "MinGW Makefiles" -DOpenCV_DIR="[opencv4 folder path]" .. -> mingw32 make -> rbc_seg.exe
  */
 
